@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		4A524F1C223CA87E007A60EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A524F1B223CA87E007A60EC /* AppDelegate.swift */; };
-		4A524F1E223CA87E007A60EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A524F1D223CA87E007A60EC /* ViewController.swift */; };
 		4A524F21223CA87E007A60EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A524F1F223CA87E007A60EC /* Main.storyboard */; };
 		4A524F23223CA881007A60EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A524F22223CA881007A60EC /* Assets.xcassets */; };
 		4A524F26223CA881007A60EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A524F24223CA881007A60EC /* LaunchScreen.storyboard */; };
+		4A524F2E223CA8A7007A60EC /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A524F2D223CA8A7007A60EC /* PhotoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4A524F18223CA87E007A60EC /* Photos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Photos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A524F1B223CA87E007A60EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4A524F1D223CA87E007A60EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4A524F20223CA87E007A60EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4A524F22223CA881007A60EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A524F25223CA881007A60EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A524F27223CA881007A60EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A524F2D223CA8A7007A60EC /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +54,8 @@
 		4A524F1A223CA87E007A60EC /* Photos */ = {
 			isa = PBXGroup;
 			children = (
+				4A524F2D223CA8A7007A60EC /* PhotoViewController.swift */,
 				4A524F1B223CA87E007A60EC /* AppDelegate.swift */,
-				4A524F1D223CA87E007A60EC /* ViewController.swift */,
 				4A524F1F223CA87E007A60EC /* Main.storyboard */,
 				4A524F22223CA881007A60EC /* Assets.xcassets */,
 				4A524F24223CA881007A60EC /* LaunchScreen.storyboard */,
@@ -135,8 +135,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A524F1E223CA87E007A60EC /* ViewController.swift in Sources */,
 				4A524F1C223CA87E007A60EC /* AppDelegate.swift in Sources */,
+				4A524F2E223CA8A7007A60EC /* PhotoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +283,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9FFAAM8AAX;
 				INFOPLIST_FILE = Photos/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,6 +301,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9FFAAM8AAX;
 				INFOPLIST_FILE = Photos/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
